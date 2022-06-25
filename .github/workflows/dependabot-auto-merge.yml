@@ -1,0 +1,32 @@
+name: dependabot-auto-merge
+
+on:
+  pull_request_target:
+
+permissions:
+  actions: write
+  checks: write
+  contents: write
+  deployments: write
+  id-token: write
+  issues: write
+  packages: none
+  pull-requests: write
+  repository-projects: write
+  security-events: write
+  statuses: write
+
+jobs:
+  auto-merge:
+    runs-on: ubuntu-latest
+
+    if: github.actor == 'dependabot[bot]'
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: ahmadnassri/action-dependabot-auto-merge@v2
+        with:
+          github-token: ${{ secrets.PERSONAL_TOKEN_FOR_GITHUB_ACTIONS }}
+          config: .github/dependabot-auto-merge.yml
+

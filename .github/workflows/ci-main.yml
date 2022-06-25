@@ -1,0 +1,30 @@
+name: Build and Test
+ 
+on:
+  push:
+    branches:
+      - main
+
+  workflow_dispatch:
+
+jobs:
+
+  test:
+    strategy:
+      matrix:
+        node-version: [16.x]
+
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3.3.0
+        with:
+          node-version: ${{ matrix.node-version }}
+          check-latest: true
+
+      - name: Build
+        working-directory: iam
+        run: |
+          yarn install
+          yarn build

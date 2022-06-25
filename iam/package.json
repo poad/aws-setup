@@ -1,0 +1,40 @@
+{
+  "name": "iam",
+  "version": "0.1.0",
+  "bin": {
+    "iam": "bin/iam.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest --passWithNoTests",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@types/jest": "*",
+    "@types/node": "*",
+    "@types/prettier": "*",
+    "aws-cdk": "*",
+    "jest": "*",
+    "ts-jest": "*",
+    "ts-node": "*",
+    "typescript": "*"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "*",
+    "constructs": "*",
+    "source-map-support": "*"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "roots": [
+      "<rootDir>/test"
+    ],
+    "testMatch": [
+      "**/*.test.ts"
+    ],
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    }
+  }
+}
