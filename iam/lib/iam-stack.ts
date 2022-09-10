@@ -1,5 +1,5 @@
 import { Stack, StackProps } from 'aws-cdk-lib';
-import { AccountPrincipal, Group, ManagedPolicy, PolicyStatement, Role } from 'aws-cdk-lib/aws-iam';
+import { AccountPrincipal, Effect, Group, ManagedPolicy, Policy, PolicyDocument, PolicyStatement, Role } from 'aws-cdk-lib/aws-iam';
 import { Construct } from 'constructs';
 
 interface IamStackProps extends StackProps {
@@ -41,6 +41,24 @@ export class IamStack extends Stack {
           ]
         })
       ]
+    });
+
+    new ManagedPolicy(this, 'CdkAssumeRolePolicy', {
+      managedPolicyName: 'CdkAssumeRolePolicy',
+      document: new PolicyDocument({
+        minimize: true,
+        statements: [
+          new PolicyStatement({
+            effect: Effect.ALLOW,
+            actions: [
+              'sts:AssumeRole'
+            ],
+            resources: [
+              `arn:aws:iam::${this.account}:role/cdk-*`
+            ]
+          }),
+        ]
+      })
     });
   }
 }
