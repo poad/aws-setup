@@ -518,18 +518,6 @@
     "@types/yargs" "^17.0.8"
     chalk "^4.0.0"
 
-"@jest/types@^29.1.2":
-  version "29.1.2"
-  resolved "https://registry.yarnpkg.com/@jest/types/-/types-29.1.2.tgz#7442d32b16bcd7592d9614173078b8c334ec730a"
-  integrity sha512-DcXGtoTykQB5jiwCmVr8H4vdg2OJhQex3qPkG+ISyDO7xQXbt/4R6dowcRyPemRnkH7JoHvZuxPBdlq+9JxFCg==
-  dependencies:
-    "@jest/schemas" "^29.0.0"
-    "@types/istanbul-lib-coverage" "^2.0.0"
-    "@types/istanbul-reports" "^3.0.0"
-    "@types/node" "*"
-    "@types/yargs" "^17.0.8"
-    chalk "^4.0.0"
-
 "@jridgewell/gen-mapping@^0.1.0":
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/@jridgewell/gen-mapping/-/gen-mapping-0.1.1.tgz#e5d2e450306a9491e3bd77e323e38d7aff315996"
@@ -1571,12 +1559,12 @@ jest-regex-util@^29.0.0:
   integrity sha512-BV7VW7Sy0fInHWN93MMPtlClweYv2qrSCwfeFWmpribGZtQPWNvRSq9XOVgOEjU1iBGRKXUZil0o2AH7Iy9Lug==
 
 jest-resolve-dependencies@^29.1.1:
-  version "29.1.1"
-  resolved "https://registry.yarnpkg.com/jest-resolve-dependencies/-/jest-resolve-dependencies-29.1.1.tgz#03104a866fb133cffd8a6fe7fc198b0de9a17232"
-  integrity sha512-AMRTJyiK8caRXq3pa9i4oXX6yH+am5v0HwCUq1yk9lxI3ARihyT2OfEySJJo3ER7xpxf3b6isfp1sO6PQY3N0Q==
+  version "29.1.2"
+  resolved "https://registry.yarnpkg.com/jest-resolve-dependencies/-/jest-resolve-dependencies-29.1.2.tgz#a6919e58a0c7465582cb8ec2d745b4e64ae8647f"
+  integrity sha512-44yYi+yHqNmH3OoWZvPgmeeiwKxhKV/0CfrzaKLSkZG9gT973PX8i+m8j6pDrTYhhHoiKfF3YUFg/6AeuHw4HQ==
   dependencies:
     jest-regex-util "^29.0.0"
-    jest-snapshot "^29.1.0"
+    jest-snapshot "^29.1.2"
 
 jest-resolve@^29.1.0:
   version "29.1.2"
@@ -1648,7 +1636,7 @@ jest-runtime@^29.1.1:
     slash "^3.0.0"
     strip-bom "^4.0.0"
 
-jest-snapshot@^29.1.0:
+jest-snapshot@^29.1.0, jest-snapshot@^29.1.2:
   version "29.1.2"
   resolved "https://registry.yarnpkg.com/jest-snapshot/-/jest-snapshot-29.1.2.tgz#7dd277e88c45f2d2ff5888de1612e63c7ceb575b"
   integrity sha512-rYFomGpVMdBlfwTYxkUp3sjD6usptvZcONFYNqVlaz4EpHPnDvlWjvmOQ9OCSNKqYZqLM2aS3wq01tWujLg7gg==
@@ -1990,15 +1978,6 @@ pkg-dir@^4.2.0:
     find-up "^4.0.0"
 
 pretty-format@^29.0.0, pretty-format@^29.1.0, pretty-format@^29.1.2:
-  version "29.1.2"
-  resolved "https://registry.yarnpkg.com/pretty-format/-/pretty-format-29.1.2.tgz#b1f6b75be7d699be1a051f5da36e8ae9e76a8e6a"
-  integrity sha512-CGJ6VVGXVRP2o2Dorl4mAwwvDWT25luIsYhkyVQW32E4nL+TgW939J7LlKT/npq5Cpq6j3s+sy+13yk7xYpBmg==
-  dependencies:
-    "@jest/schemas" "^29.0.0"
-    ansi-styles "^5.0.0"
-    react-is "^18.0.0"
-
-pretty-format@^29.1.2:
   version "29.1.2"
   resolved "https://registry.yarnpkg.com/pretty-format/-/pretty-format-29.1.2.tgz#b1f6b75be7d699be1a051f5da36e8ae9e76a8e6a"
   integrity sha512-CGJ6VVGXVRP2o2Dorl4mAwwvDWT25luIsYhkyVQW32E4nL+TgW939J7LlKT/npq5Cpq6j3s+sy+13yk7xYpBmg==
