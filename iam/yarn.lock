@@ -1534,26 +1534,7 @@ jest-get-type@^29.2.0:
   resolved "https://registry.yarnpkg.com/jest-get-type/-/jest-get-type-29.2.0.tgz#726646f927ef61d583a3b3adb1ab13f3a5036408"
   integrity sha512-uXNJlg8hKFEnDgFsrCjznB+sTxdkuqiCL6zMgA75qEbAJjJYTs9XPrvDctrEig2GDow22T/LvHgO57iJhXB/UA==
 
-jest-haste-map@^29.3.0:
-  version "29.3.0"
-  resolved "https://registry.yarnpkg.com/jest-haste-map/-/jest-haste-map-29.3.0.tgz#9786f501ed6ab1c7adc35d3f83c1c21ed4172c77"
-  integrity sha512-ugdLIreycMRRg3+6AjiExECmuFI2D9PS+BmNU7eGvBt3fzVMKybb9USAZXN6kw4Q6Mn8DSK+7OFCloY2rN820Q==
-  dependencies:
-    "@jest/types" "^29.2.1"
-    "@types/graceful-fs" "^4.1.3"
-    "@types/node" "*"
-    anymatch "^3.0.3"
-    fb-watchman "^2.0.0"
-    graceful-fs "^4.2.9"
-    jest-regex-util "^29.2.0"
-    jest-util "^29.2.1"
-    jest-worker "^29.3.0"
-    micromatch "^4.0.4"
-    walker "^1.0.8"
-  optionalDependencies:
-    fsevents "^2.3.2"
-
-jest-haste-map@^29.3.1:
+jest-haste-map@^29.3.0, jest-haste-map@^29.3.1:
   version "29.3.1"
   resolved "https://registry.yarnpkg.com/jest-haste-map/-/jest-haste-map-29.3.1.tgz#af83b4347f1dae5ee8c2fb57368dc0bb3e5af843"
   integrity sha512-/FFtvoG1xjbbPXQLFef+WSU4yrc0fc0Dds6aRPBojUid7qlPqZvxdUBA03HW0fnVHXVCnCdkuoghYItKNzc/0A==
@@ -1641,22 +1622,7 @@ jest-resolve-dependencies@^29.3.0:
     jest-regex-util "^29.2.0"
     jest-snapshot "^29.3.1"
 
-jest-resolve@^29.3.0:
-  version "29.3.0"
-  resolved "https://registry.yarnpkg.com/jest-resolve/-/jest-resolve-29.3.0.tgz#038711e9af86f4b4f55a407db14310bc57a8beb4"
-  integrity sha512-xH6C6loDlOWEWHdCgioLDlbpmsolNdNsV/UR35ChuK217x0ttHuhyEPdh5wa6CTQ/Eq4OGW2/EZTlh0ay5aojQ==
-  dependencies:
-    chalk "^4.0.0"
-    graceful-fs "^4.2.9"
-    jest-haste-map "^29.3.0"
-    jest-pnp-resolver "^1.2.2"
-    jest-util "^29.2.1"
-    jest-validate "^29.2.2"
-    resolve "^1.20.0"
-    resolve.exports "^1.1.0"
-    slash "^3.0.0"
-
-jest-resolve@^29.3.1:
+jest-resolve@^29.3.0, jest-resolve@^29.3.1:
   version "29.3.1"
   resolved "https://registry.yarnpkg.com/jest-resolve/-/jest-resolve-29.3.1.tgz#9a4b6b65387a3141e4a40815535c7f196f1a68a7"
   integrity sha512-amXJgH/Ng712w3Uz5gqzFBBjxV8WFLSmNjoreBGMqxgCz5cH7swmBZzgBaCIOsvb0NbpJ0vgaSFdJqMdT+rADw==
