@@ -1397,7 +1397,7 @@ packages:
       '@jest/expect-utils': 29.5.0
       jest-get-type: 29.4.3
       jest-matcher-utils: 29.6.0
-      jest-message-util: 29.5.0
+      jest-message-util: 29.6.0
       jest-util: 29.6.0
     dev: true
 
@@ -1825,21 +1825,6 @@ packages:
       jest-diff: 29.6.0
       jest-get-type: 29.4.3
       pretty-format: 29.6.0
-    dev: true
-
-  /jest-message-util@29.5.0:
-    resolution: {integrity: sha512-Kijeg9Dag6CKtIDA7O21zNTACqD5MD/8HfIV8pdD94vFyFuer52SigdC3IQMhab3vACxXMiFk+yMHNdbqtyTGA==}
-    engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
-    dependencies:
-      '@babel/code-frame': 7.22.5
-      '@jest/types': 29.6.0
-      '@types/stack-utils': 2.0.1
-      chalk: 4.1.2
-      graceful-fs: 4.2.11
-      micromatch: 4.0.5
-      pretty-format: 29.6.0
-      slash: 3.0.0
-      stack-utils: 2.0.6
     dev: true
 
   /jest-message-util@29.6.0:
