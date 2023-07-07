@@ -478,7 +478,7 @@ packages:
       jest-validate: 29.6.0
       jest-watcher: 29.6.1
       micromatch: 4.0.5
-      pretty-format: 29.6.0
+      pretty-format: 29.6.1
       slash: 3.0.0
       strip-ansi: 6.0.1
     transitivePeerDependencies:
@@ -1645,7 +1645,7 @@ packages:
       co: 4.6.0
       dedent: 0.7.0
       is-generator-fn: 2.1.0
-      jest-each: 29.6.0
+      jest-each: 29.6.1
       jest-matcher-utils: 29.6.0
       jest-message-util: 29.6.1
       jest-runtime: 29.6.0
@@ -1745,8 +1745,8 @@ packages:
       detect-newline: 3.1.0
     dev: true
 
-  /jest-each@29.6.0:
-    resolution: {integrity: sha512-d0Jem4RBAlFUyV6JSXPSHVUpNo5RleSj+iJEy1G3+ZCrzHDjWs/1jUfrbnJKHdJdAx5BCEce/Ju379WqHhQk4w==}
+  /jest-each@29.6.1:
+    resolution: {integrity: sha512-n5eoj5eiTHpKQCAVcNTT7DRqeUmJ01hsAL0Q1SMiBHcBcvTKDELixQOGMCpqhbIuTcfC4kMfSnpmDqRgRJcLNQ==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dependencies:
       '@jest/types': 29.6.1
