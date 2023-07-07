@@ -476,7 +476,7 @@ packages:
       jest-snapshot: 29.6.0
       jest-util: 29.6.1
       jest-validate: 29.6.0
-      jest-watcher: 29.6.0
+      jest-watcher: 29.6.1
       micromatch: 4.0.5
       pretty-format: 29.6.0
       slash: 3.0.0
@@ -1912,7 +1912,7 @@ packages:
       jest-resolve: 29.6.0
       jest-runtime: 29.6.0
       jest-util: 29.6.1
-      jest-watcher: 29.6.0
+      jest-watcher: 29.6.1
       jest-worker: 29.6.0
       p-limit: 3.1.0
       source-map-support: 0.5.13
@@ -2015,8 +2015,8 @@ packages:
       pretty-format: 29.6.1
     dev: true
 
-  /jest-watcher@29.6.0:
-    resolution: {integrity: sha512-LdsQqFNX60mRdRRe+zsELnYRH1yX6KL+ukbh+u6WSQeTheZZe1TlLJNKRQiZ7e0VbvMkywmMWL/KV35noOJCcw==}
+  /jest-watcher@29.6.1:
+    resolution: {integrity: sha512-d4wpjWTS7HEZPaaj8m36QiaP856JthRZkrgcIY/7ISoUWPIillrXM23WPboZVLbiwZBt4/qn2Jke84Sla6JhFA==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dependencies:
       '@jest/test-result': 29.6.1
