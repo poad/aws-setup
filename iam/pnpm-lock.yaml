@@ -473,7 +473,7 @@ packages:
       jest-resolve-dependencies: 29.6.0
       jest-runner: 29.6.0
       jest-runtime: 29.6.0
-      jest-snapshot: 29.6.0
+      jest-snapshot: 29.6.1
       jest-util: 29.6.1
       jest-validate: 29.6.1
       jest-watcher: 29.6.1
@@ -1849,16 +1849,6 @@ packages:
       - supports-color
     dev: true
 
-  /jest-diff@29.6.0:
-    resolution: {integrity: sha512-ZRm7cd2m9YyZ0N3iMyuo1iUiprxQ/MFpYWXzEEj7hjzL3WnDffKW8192XBDcrAI8j7hnrM1wed3bL/oEnYF/8w==}
-    engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
-    dependencies:
-      chalk: 4.1.2
-      diff-sequences: 29.4.3
-      jest-get-type: 29.4.3
-      pretty-format: 29.6.1
-    dev: true
-
   /jest-diff@29.6.1:
     resolution: {integrity: sha512-FsNCvinvl8oVxpNLttNQX7FAq7vR+gMDGj90tiP7siWw1UdakWUGqrylpsYrpvj908IYckm5Y0Q7azNAozU1Kg==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
@@ -1955,7 +1945,7 @@ packages:
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dependencies:
       chalk: 4.1.2
-      jest-diff: 29.6.0
+      jest-diff: 29.6.1
       jest-get-type: 29.4.3
       pretty-format: 29.6.1
     dev: true
@@ -2202,35 +2192,6 @@ packages:
       jest-util: 29.6.1
       slash: 3.0.0
       strip-bom: 4.0.0
-    transitivePeerDependencies:
-      - supports-color
-    dev: true
-
-  /jest-snapshot@29.6.0:
-    resolution: {integrity: sha512-H3kUE9NwWDEDoutcOSS921IqdlkdjgnMdj1oMyxAHNflscdLc9dB8OudZHV6kj4OHJxbMxL8CdI5DlwYrs4wQg==}
-    engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
-    dependencies:
-      '@babel/core': 7.22.6
-      '@babel/generator': 7.22.5
-      '@babel/plugin-syntax-jsx': 7.22.5(@babel/core@7.22.6)
-      '@babel/plugin-syntax-typescript': 7.22.5(@babel/core@7.22.6)
-      '@babel/types': 7.22.5
-      '@jest/expect-utils': 29.6.1
-      '@jest/transform': 29.6.1
-      '@jest/types': 29.6.1
-      '@types/prettier': 2.7.3
-      babel-preset-current-node-syntax: 1.0.1(@babel/core@7.22.6)
-      chalk: 4.1.2
-      expect: 29.6.1
-      graceful-fs: 4.2.11
-      jest-diff: 29.6.1
-      jest-get-type: 29.4.3
-      jest-matcher-utils: 29.6.1
-      jest-message-util: 29.6.1
-      jest-util: 29.6.1
-      natural-compare: 1.4.0
-      pretty-format: 29.6.1
-      semver: 7.5.3
     transitivePeerDependencies:
       - supports-color
     dev: true
