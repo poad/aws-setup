@@ -479,7 +479,7 @@ packages:
       jest-runner: 29.6.2
       jest-runtime: 29.6.3
       jest-snapshot: 29.6.2
-      jest-util: 29.6.2
+      jest-util: 29.6.3
       jest-validate: 29.6.2
       jest-watcher: 29.6.2
       micromatch: 4.0.5
@@ -598,7 +598,7 @@ packages:
       istanbul-reports: 3.1.6
       jest-message-util: 29.6.3
       jest-util: 29.6.3
-      jest-worker: 29.6.2
+      jest-worker: 29.6.3
       slash: 3.0.0
       string-length: 4.0.2
       strip-ansi: 6.0.1
@@ -1453,7 +1453,7 @@ packages:
       jest-get-type: 29.4.3
       jest-matcher-utils: 29.6.3
       jest-message-util: 29.6.2
-      jest-util: 29.6.2
+      jest-util: 29.6.3
     dev: true
 
   /expect@29.6.3:
@@ -1750,7 +1750,7 @@ packages:
       graceful-fs: 4.2.11
       import-local: 3.1.0
       jest-config: 29.6.2(@types/node@20.5.1)(ts-node@10.9.1)
-      jest-util: 29.6.2
+      jest-util: 29.6.3
       jest-validate: 29.6.2
       prompts: 2.4.2
       yargs: 17.7.2
@@ -1864,7 +1864,7 @@ packages:
       graceful-fs: 4.2.11
       jest-regex-util: 29.4.3
       jest-util: 29.6.3
-      jest-worker: 29.6.2
+      jest-worker: 29.6.3
       micromatch: 4.0.5
       walker: 1.0.8
     optionalDependencies:
@@ -2043,7 +2043,7 @@ packages:
       jest-runtime: 29.6.3
       jest-util: 29.6.3
       jest-watcher: 29.6.2
-      jest-worker: 29.6.2
+      jest-worker: 29.6.3
       p-limit: 3.1.0
       source-map-support: 0.5.13
     transitivePeerDependencies:
@@ -2196,16 +2196,6 @@ packages:
       emittery: 0.13.1
       jest-util: 29.6.3
       string-length: 4.0.2
-    dev: true
-
-  /jest-worker@29.6.2:
-    resolution: {integrity: sha512-l3ccBOabTdkng8I/ORCkADz4eSMKejTYv1vB/Z83UiubqhC1oQ5Li6dWCyqOIvSifGjUBxuvxvlm6KGK2DtuAQ==}
-    engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
-    dependencies:
-      '@types/node': 20.5.1
-      jest-util: 29.6.3
-      merge-stream: 2.0.0
-      supports-color: 8.1.1
     dev: true
 
   /jest-worker@29.6.3:
@@ -2484,7 +2474,7 @@ packages:
     resolution: {integrity: sha512-1q0oC8eRveTg5nnBEWMXAU2qpv65Gnuf2eCQzSjxpWFkPaPARwqZZDGuNE0zPAZfTCHzIk3A8dIjwlQKKLphyg==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dependencies:
-      '@jest/schemas': 29.6.0
+      '@jest/schemas': 29.6.3
       ansi-styles: 5.2.0
       react-is: 18.2.0
     dev: true
