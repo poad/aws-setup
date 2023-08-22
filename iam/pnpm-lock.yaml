@@ -461,7 +461,7 @@ packages:
       '@jest/console': 29.6.2
       '@jest/reporters': 29.6.3
       '@jest/test-result': 29.6.2
-      '@jest/transform': 29.6.2
+      '@jest/transform': 29.6.3
       '@jest/types': 29.6.1
       '@types/node': 20.5.1
       ansi-escapes: 4.3.2
@@ -658,29 +658,6 @@ packages:
       graceful-fs: 4.2.11
       jest-haste-map: 29.6.3
       slash: 3.0.0
-    dev: true
-
-  /@jest/transform@29.6.2:
-    resolution: {integrity: sha512-ZqCqEISr58Ce3U+buNFJYUktLJZOggfyvR+bZMaiV1e8B1SIvJbwZMrYz3gx/KAPn9EXmOmN+uB08yLCjWkQQg==}
-    engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
-    dependencies:
-      '@babel/core': 7.22.10
-      '@jest/types': 29.6.3
-      '@jridgewell/trace-mapping': 0.3.19
-      babel-plugin-istanbul: 6.1.1
-      chalk: 4.1.2
-      convert-source-map: 2.0.0
-      fast-json-stable-stringify: 2.1.0
-      graceful-fs: 4.2.11
-      jest-haste-map: 29.6.3
-      jest-regex-util: 29.6.3
-      jest-util: 29.6.3
-      micromatch: 4.0.5
-      pirates: 4.0.6
-      slash: 3.0.0
-      write-file-atomic: 4.0.2
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
   /@jest/transform@29.6.3:
@@ -1108,8 +1085,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /babel-jest@29.6.2(@babel/core@7.22.10):
-    resolution: {integrity: sha512-BYCzImLos6J3BH/+HvUCHG1dTf2MzmAB4jaVxHV+29RZLjR29XuYTmsf2sdDwkrb+FczkGo3kOhE7ga6sI0P4A==}
+  /babel-jest@29.6.3(@babel/core@7.22.10):
+    resolution: {integrity: sha512-1Ne93zZZEy5XmTa4Q+W5+zxBrDpExX8E3iy+xJJ+24ewlfo/T3qHfQJCzi/MMVFmBQDNxtRR/Gfd2dwb/0yrQw==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     peerDependencies:
       '@babel/core': ^7.8.0
@@ -1790,7 +1767,7 @@ packages:
       '@jest/test-sequencer': 29.6.2
       '@jest/types': 29.6.3
       '@types/node': 20.5.1
-      babel-jest: 29.6.2(@babel/core@7.22.10)
+      babel-jest: 29.6.3(@babel/core@7.22.10)
       chalk: 4.1.2
       ci-info: 3.8.0
       deepmerge: 4.3.1
