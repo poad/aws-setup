@@ -1841,13 +1841,6 @@ packages:
       pretty-format: 29.6.3
     dev: true
 
-  /jest-docblock@29.4.3:
-    resolution: {integrity: sha512-fzdTftThczeSD9nZ3fzA/4KkHtnmllawWrXO69vtI+L9WjEIuXWs4AmyME7lN5hU7dB0sHhuPfcKofRsUb/2Fg==}
-    engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
-    dependencies:
-      detect-newline: 3.1.0
-    dev: true
-
   /jest-docblock@29.6.3:
     resolution: {integrity: sha512-2+H+GOTQBEm2+qFSQ7Ma+BvyV+waiIFxmZF5LdpBsAEjWX8QYjSCa4FrkIYtbfXUJJJnFCYrOtt6TZ+IAiTjBQ==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
@@ -2050,7 +2043,7 @@ packages:
       chalk: 4.1.2
       emittery: 0.13.1
       graceful-fs: 4.2.11
-      jest-docblock: 29.4.3
+      jest-docblock: 29.6.3
       jest-environment-node: 29.6.2
       jest-haste-map: 29.6.3
       jest-leak-detector: 29.6.2
