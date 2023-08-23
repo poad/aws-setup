@@ -1395,7 +1395,7 @@ packages:
     dependencies:
       '@jest/expect-utils': 29.6.2
       '@types/node': 20.5.1
-      jest-get-type: 29.4.3
+      jest-get-type: 29.6.3
       jest-matcher-utils: 29.6.3
       jest-message-util: 29.6.2
       jest-util: 29.6.3
@@ -1675,7 +1675,7 @@ packages:
       co: 4.6.0
       dedent: 1.5.1
       is-generator-fn: 2.1.0
-      jest-each: 29.6.2
+      jest-each: 29.6.3
       jest-matcher-utils: 29.6.3
       jest-message-util: 29.6.3
       jest-runtime: 29.6.3
@@ -1848,17 +1848,6 @@ packages:
       detect-newline: 3.1.0
     dev: true
 
-  /jest-each@29.6.2:
-    resolution: {integrity: sha512-MsrsqA0Ia99cIpABBc3izS1ZYoYfhIy0NNWqPSE0YXbQjwchyt6B1HD2khzyPe1WiJA7hbxXy77ZoUQxn8UlSw==}
-    engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
-    dependencies:
-      '@jest/types': 29.6.3
-      chalk: 4.1.2
-      jest-get-type: 29.6.3
-      jest-util: 29.6.3
-      pretty-format: 29.6.3
-    dev: true
-
   /jest-each@29.6.3:
     resolution: {integrity: sha512-KoXfJ42k8cqbkfshW7sSHcdfnv5agDdHCPA87ZBdmHP+zJstTJc0ttQaJ/x7zK6noAL76hOuTIJ6ZkQRS5dcyg==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
@@ -1892,11 +1881,6 @@ packages:
       '@types/node': 20.5.1
       jest-mock: 29.6.3
       jest-util: 29.6.3
-    dev: true
-
-  /jest-get-type@29.4.3:
-    resolution: {integrity: sha512-J5Xez4nRRMjk8emnTpWrlkyb9pfRQQanDrvWHhsR1+VUfbwxi30eVcZFlcdGInRibU4G5LwHXpI7IRHU0CY+gg==}
-    engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dev: true
 
   /jest-get-type@29.6.3:
