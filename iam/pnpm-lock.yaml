@@ -460,7 +460,7 @@ packages:
     dependencies:
       '@jest/console': 29.6.2
       '@jest/reporters': 29.6.3
-      '@jest/test-result': 29.6.2
+      '@jest/test-result': 29.6.3
       '@jest/transform': 29.6.3
       '@jest/types': 29.6.1
       '@types/node': 20.5.1
@@ -628,16 +628,6 @@ packages:
       '@jridgewell/trace-mapping': 0.3.19
       callsites: 3.1.0
       graceful-fs: 4.2.11
-    dev: true
-
-  /@jest/test-result@29.6.2:
-    resolution: {integrity: sha512-3VKFXzcV42EYhMCsJQURptSqnyjqCGbtLuX5Xxb6Pm6gUf1wIRIl+mandIRGJyWKgNKYF9cnstti6Ls5ekduqw==}
-    engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
-    dependencies:
-      '@jest/console': 29.6.3
-      '@jest/types': 29.6.3
-      '@types/istanbul-lib-coverage': 2.0.4
-      collect-v8-coverage: 1.0.2
     dev: true
 
   /@jest/test-result@29.6.3:
@@ -1733,7 +1723,7 @@ packages:
         optional: true
     dependencies:
       '@jest/core': 29.6.2(ts-node@10.9.1)
-      '@jest/test-result': 29.6.2
+      '@jest/test-result': 29.6.3
       '@jest/types': 29.6.1
       chalk: 4.1.2
       exit: 0.1.2
