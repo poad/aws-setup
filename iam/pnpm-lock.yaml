@@ -475,7 +475,7 @@ packages:
       jest-message-util: 29.6.2
       jest-regex-util: 29.6.3
       jest-resolve: 29.6.2
-      jest-resolve-dependencies: 29.6.2
+      jest-resolve-dependencies: 29.6.3
       jest-runner: 29.6.2
       jest-runtime: 29.6.3
       jest-snapshot: 29.6.2
@@ -530,8 +530,8 @@ packages:
     resolution: {integrity: sha512-m6DrEJxVKjkELTVAztTLyS/7C92Y2b0VYqmDROYKLLALHn8T/04yPs70NADUYPrV3ruI+H3J0iUIuhkjp7vkfg==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dependencies:
-      expect: 29.6.2
-      jest-snapshot: 29.6.2
+      expect: 29.6.3
+      jest-snapshot: 29.6.3
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -1966,12 +1966,12 @@ packages:
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dev: true
 
-  /jest-resolve-dependencies@29.6.2:
-    resolution: {integrity: sha512-LGqjDWxg2fuQQm7ypDxduLu/m4+4Lb4gczc13v51VMZbVP5tSBILqVx8qfWcsdP8f0G7aIqByIALDB0R93yL+w==}
+  /jest-resolve-dependencies@29.6.3:
+    resolution: {integrity: sha512-iah5nhSPTwtUV7yzpTc9xGg8gP3Ch2VNsuFMsKoCkNCrQSbFtx5KRPemmPJ32AUhTSDqJXB6djPN6zAaUGV53g==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dependencies:
       jest-regex-util: 29.6.3
-      jest-snapshot: 29.6.2
+      jest-snapshot: 29.6.3
     transitivePeerDependencies:
       - supports-color
     dev: true
