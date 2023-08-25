@@ -490,13 +490,6 @@ packages:
       jest-mock: 29.6.3
     dev: true
 
-  /@jest/expect-utils@29.6.3:
-    resolution: {integrity: sha512-nvOEW4YoqRKD9HBJ9OJ6przvIvP9qilp5nAn1462P5ZlL/MM9SgPEZFyjTGPfs7QkocdUsJa6KjHhyRn4ueItA==}
-    engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
-    dependencies:
-      jest-get-type: 29.6.3
-    dev: true
-
   /@jest/expect-utils@29.6.4:
     resolution: {integrity: sha512-FEhkJhqtvBwgSpiTrocquJCdXPsyvNKcl/n7A3u7X4pVoF4bswm11c9d4AV+kfq2Gpv/mM8x7E7DsRvH+djkrg==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
@@ -1392,7 +1385,7 @@ packages:
     resolution: {integrity: sha512-x1vY4LlEMWUYVZQrFi4ZANXFwqYbJ/JNQspLVvzhW2BNY28aNcXMQH6imBbt+RBf5sVRTodYHXtSP/TLEU0Dxw==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dependencies:
-      '@jest/expect-utils': 29.6.3
+      '@jest/expect-utils': 29.6.4
       jest-get-type: 29.6.3
       jest-matcher-utils: 29.6.3
       jest-message-util: 29.6.3
