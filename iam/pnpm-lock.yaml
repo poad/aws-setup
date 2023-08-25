@@ -469,7 +469,7 @@ packages:
       jest-snapshot: 29.6.4
       jest-util: 29.6.3
       jest-validate: 29.6.3
-      jest-watcher: 29.6.3
+      jest-watcher: 29.6.4
       micromatch: 4.0.5
       pretty-format: 29.6.3
       slash: 3.0.0
@@ -2087,20 +2087,6 @@ packages:
       jest-get-type: 29.6.3
       leven: 3.1.0
       pretty-format: 29.6.3
-    dev: true
-
-  /jest-watcher@29.6.3:
-    resolution: {integrity: sha512-NgpFjZ2U2MKusjidbi4Oiu7tfs+nrgdIxIEVROvH1cFmOei9Uj25lwkMsakqLnH/s0nEcvxO1ck77FiRlcnpZg==}
-    engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
-    dependencies:
-      '@jest/test-result': 29.6.4
-      '@jest/types': 29.6.3
-      '@types/node': 20.5.4
-      ansi-escapes: 4.3.2
-      chalk: 4.1.2
-      emittery: 0.13.1
-      jest-util: 29.6.3
-      string-length: 4.0.2
     dev: true
 
   /jest-watcher@29.6.4:
