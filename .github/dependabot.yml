@@ -21,6 +21,6 @@ updates:
     assignees:
       - poad
     groups:
-      cognito-singin:
+      miscs:
         patterns:
           - "*"
