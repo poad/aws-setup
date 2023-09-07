@@ -33,5 +33,4 @@ jobs:
           check-latest: true
 
       - name: Build
-        working-directory: iam
         run: pnpm build
