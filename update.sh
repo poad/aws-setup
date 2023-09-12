@@ -13,7 +13,7 @@ if [ $result -ne 0 ]; then
   exit $result
 fi
 
-cd "${CURRENT}"/iam || exit
+cd "${CURRENT}" || exit
 result=$?
 if [ $result -ne 0 ]; then
   cd "${CUR}" || exit
