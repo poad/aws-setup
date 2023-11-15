@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   aws-cdk-lib:
-    specifier: ^2.108.0
-    version: 2.108.0(constructs@10.3.0)
+    specifier: ^2.108.1
+    version: 2.108.1(constructs@10.3.0)
   constructs:
     specifier: ^10.3.0
     version: 10.3.0
@@ -23,8 +23,8 @@ devDependencies:
     specifier: ^20.9.0
     version: 20.9.0
   aws-cdk:
-    specifier: ^2.108.0
-    version: 2.108.0
+    specifier: ^2.108.1
+    version: 2.108.1
   jest:
     specifier: ^29.7.0
     version: 29.7.0(@types/node@20.9.0)(ts-node@10.9.1)
@@ -833,8 +833,8 @@ packages:
       sprintf-js: 1.0.3
     dev: true
 
-  /aws-cdk-lib@2.108.0(constructs@10.3.0):
-    resolution: {integrity: sha512-6Qa/ovAEmGuBTQiKvXwXWk9nUn/cgLCsvObLCVaV8JzeEBDKfhedGeCrk4l+Pe5JCJrKwdv2/LzT/cKN1RyZ2g==}
+  /aws-cdk-lib@2.108.1(constructs@10.3.0):
+    resolution: {integrity: sha512-rqBJIB8cVjF2BjO3kEUn1j0JVY0GqrQc7KzMez40ew6I/QzqJwy6j8lPAI+eibn1JBifNeMb8wU2DpwVxz4fhQ==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
       constructs: ^10.0.0
@@ -856,8 +856,8 @@ packages:
       - table
       - yaml
 
-  /aws-cdk@2.108.0:
-    resolution: {integrity: sha512-qpBAtEGudaO7EVuGfur+lIpoh+JeWVgnvQ7z8MBtr7LEzolQf/9Cebovx/+KCUI3VnK/jsL/+3ixYwraaT/y2A==}
+  /aws-cdk@2.108.1:
+    resolution: {integrity: sha512-VSu1KYLT1VzJdZqKPgVFQGfEBxaWmWCp0USfT4Xqk7drOmMzZK1PmXhSDpWr1mq1jn0m+4rwaifUi1Tt/0eFNQ==}
     engines: {node: '>= 14.15.0'}
     hasBin: true
     optionalDependencies:
@@ -960,7 +960,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001562
-      electron-to-chromium: 1.4.582
+      electron-to-chromium: 1.4.583
       node-releases: 2.0.13
       update-browserslist-db: 1.0.13(browserslist@4.22.1)
     dev: true
@@ -1156,8 +1156,8 @@ packages:
     engines: {node: '>=0.3.1'}
     dev: true
 
-  /electron-to-chromium@1.4.582:
-    resolution: {integrity: sha512-89o0MGoocwYbzqUUjc+VNpeOFSOK9nIdC5wY4N+PVUarUK0MtjyTjks75AZS2bW4Kl8MdewdFsWaH0jLy+JNoA==}
+  /electron-to-chromium@1.4.583:
+    resolution: {integrity: sha512-93y1gcONABZ7uqYe/JWDVQP/Pj/sQSunF0HVAPdlg/pfBnOyBMLlQUxWvkqcljJg1+W6cjvPuYD+r1Th9Tn8mA==}
     dev: true
 
   /emittery@0.13.1:
