@@ -10,7 +10,6 @@ on:
 jobs:
   configure:
     runs-on: ubuntu-latest
-    # if: github.actor != 'dependabot[bot]'
     steps:
       - name: Pull request auto merge enabler
         if: github.event_name == 'pull_request' && github.actor != 'dependabot[bot]'
@@ -30,21 +29,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
-      - uses: pnpm/action-setup@v4
-        name: Install pnpm
-        id: pnpm-install
-        with:
-          version: latest
-          run_install: |
-            - recursive: true
-              args: [--no-frozen-lockfile, --strict-peer-dependencies]
-
+      
       - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v4.0.2
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
           check-latest: true
+
+      - uses: pnpm/action-setup@v4
+        name: Install pnpm
+        with:
+          run_install: |
+            - recursive: true
+              args: [--no-frozen-lockfile, --strict-peer-dependencies]
 
       - name: Build
         run: pnpm build
