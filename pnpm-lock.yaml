@@ -55,8 +55,8 @@ packages:
   '@aws-cdk/asset-node-proxy-agent-v6@2.1.0':
     resolution: {integrity: sha512-7bY3J8GCVxLupn/kNmpPc5VJz8grx+4RKfnnJiO1LG+uxkZfANZG3RMHhE+qQxxwkyQ9/MfPtTpf748UhR425A==}
 
-  '@aws-cdk/cloud-assembly-schema@39.1.45':
-    resolution: {integrity: sha512-7/ysGL0cYs6xsQ7boIhxBmDZnbTZfFnYntSw5GTKxp2aXb8/YiDFcOm4iPSgdZmNaSh1yJtNx+tKhhdEMiFbyA==}
+  '@aws-cdk/cloud-assembly-schema@39.1.46':
+    resolution: {integrity: sha512-ChqTG6IZX7ya2VYYhM4BkhWXPa+xp3XyfE0++Gt4C5yZnRqVgL4NFjuwVCHwzGup5YHyYLjCXasfJ0hrvwmTzA==}
     bundledDependencies:
       - jsonschema
       - semver
@@ -602,8 +602,8 @@ packages:
     engines: {node: '>=0.10.0'}
     hasBin: true
 
-  electron-to-chromium@1.5.80:
-    resolution: {integrity: sha512-LTrKpW0AqIuHwmlVNV+cjFYTnXtM9K37OGhpe0ZI10ScPSxqVSryZHIY3WnCS5NSYbBODRTZyhRMS2h5FAEqAw==}
+  electron-to-chromium@1.5.82:
+    resolution: {integrity: sha512-Zq16uk1hfQhyGx5GpwPAYDwddJuSGhtRhgOA2mCxANYaDT79nAeGnaXogMGng4KqLaJUVnOnuL0+TDop9nLOiA==}
 
   emittery@0.13.1:
     resolution: {integrity: sha512-DeWwawk6r5yR9jFgnDKYt4sLS0LmHJJi3ZOnb5/JdbYwj3nW+FxQnHIjhBKz8YLC7oRNPVM9NQ47I3CVx34eqQ==}
@@ -1309,7 +1309,7 @@ snapshots:
 
   '@aws-cdk/asset-node-proxy-agent-v6@2.1.0': {}
 
-  '@aws-cdk/cloud-assembly-schema@39.1.45': {}
+  '@aws-cdk/cloud-assembly-schema@39.1.46': {}
 
   '@babel/code-frame@7.26.2':
     dependencies:
@@ -1802,7 +1802,7 @@ snapshots:
       '@aws-cdk/asset-awscli-v1': 2.2.219
       '@aws-cdk/asset-kubectl-v20': 2.1.3
       '@aws-cdk/asset-node-proxy-agent-v6': 2.1.0
-      '@aws-cdk/cloud-assembly-schema': 39.1.45
+      '@aws-cdk/cloud-assembly-schema': 39.1.46
       constructs: 10.4.2
 
   aws-cdk@2.175.1:
@@ -1882,7 +1882,7 @@ snapshots:
   browserslist@4.24.4:
     dependencies:
       caniuse-lite: 1.0.30001692
-      electron-to-chromium: 1.5.80
+      electron-to-chromium: 1.5.82
       node-releases: 2.0.19
       update-browserslist-db: 1.1.2(browserslist@4.24.4)
 
@@ -1978,7 +1978,7 @@ snapshots:
     dependencies:
       jake: 10.9.2
 
-  electron-to-chromium@1.5.80: {}
+  electron-to-chromium@1.5.82: {}
 
   emittery@0.13.1: {}
 
