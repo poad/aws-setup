@@ -55,8 +55,8 @@ packages:
   '@aws-cdk/asset-node-proxy-agent-v6@2.1.0':
     resolution: {integrity: sha512-7bY3J8GCVxLupn/kNmpPc5VJz8grx+4RKfnnJiO1LG+uxkZfANZG3RMHhE+qQxxwkyQ9/MfPtTpf748UhR425A==}
 
-  '@aws-cdk/cloud-assembly-schema@39.2.9':
-    resolution: {integrity: sha512-Ao4C8WoM5wgU4yn0aKLvI4gtgiRDa+8bVVwOlhGK9/jHmZlgMZY44UY9muq6qMKsMXTmfQeaB8LS3JLOiEUheA==}
+  '@aws-cdk/cloud-assembly-schema@39.2.10':
+    resolution: {integrity: sha512-TpMEalAybKtRKoKUsJsg1Jp27jIaQUwwjNniZEVLDRDn/ATEMBkcTnUOSbCePSk5fJNmp5wHew0Z03eNxDsjkQ==}
     bundledDependencies:
       - jsonschema
       - semver
@@ -522,8 +522,8 @@ packages:
     resolution: {integrity: sha512-NIxF55hv4nSqQswkAeiOi1r83xy8JldOFDTWiug55KBu9Jnblncd2U6ViHmYgHf01TPZS77NJBhBMKdWj9HQMQ==}
     engines: {node: '>=8'}
 
-  cjs-module-lexer@1.4.1:
-    resolution: {integrity: sha512-cuSVIHi9/9E/+821Qjdvngor+xpnlwnuwIyZOaLmHBVdXL+gP+I6QQB9VkO7RI77YIcTV+S1W9AreJ5eN63JBA==}
+  cjs-module-lexer@1.4.3:
+    resolution: {integrity: sha512-9z8TZaGM1pfswYeXrUpzPrkx8UnWYdhJclsiYMm6x/w5+nN+8Tf/LnAgfLGQCm59qAOxU8WwHEq2vNwF6i4j+Q==}
 
   cliui@8.0.1:
     resolution: {integrity: sha512-BSeNnyus75C4//NQ9gQt1/csTXyo/8Sb+afLAkzAptFuMsod9HFokGNudZpi/oQV73hnVK+sR+5PVRMd+Dr7YQ==}
@@ -1309,7 +1309,7 @@ snapshots:
 
   '@aws-cdk/asset-node-proxy-agent-v6@2.1.0': {}
 
-  '@aws-cdk/cloud-assembly-schema@39.2.9': {}
+  '@aws-cdk/cloud-assembly-schema@39.2.10': {}
 
   '@babel/code-frame@7.26.2':
     dependencies:
@@ -1802,7 +1802,7 @@ snapshots:
       '@aws-cdk/asset-awscli-v1': 2.2.221
       '@aws-cdk/asset-kubectl-v20': 2.1.3
       '@aws-cdk/asset-node-proxy-agent-v6': 2.1.0
-      '@aws-cdk/cloud-assembly-schema': 39.2.9
+      '@aws-cdk/cloud-assembly-schema': 39.2.10
       constructs: 10.4.2
 
   aws-cdk@2.177.0:
@@ -1913,7 +1913,7 @@ snapshots:
 
   ci-info@3.9.0: {}
 
-  cjs-module-lexer@1.4.1: {}
+  cjs-module-lexer@1.4.3: {}
 
   cliui@8.0.1:
     dependencies:
@@ -2374,7 +2374,7 @@ snapshots:
       '@jest/types': 29.6.3
       '@types/node': 22.12.0
       chalk: 4.1.2
-      cjs-module-lexer: 1.4.1
+      cjs-module-lexer: 1.4.3
       collect-v8-coverage: 1.0.2
       glob: 7.2.3
       graceful-fs: 4.2.11
