@@ -22,7 +22,7 @@ importers:
         specifier: ^29.5.14
         version: 29.5.14
       '@types/node':
-        specifier: ^22.14.1
+        specifier: ^22.15.2
         version: 22.15.2
       aws-cdk:
         specifier: ^2.1012.0
