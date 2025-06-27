@@ -1,5 +1,5 @@
 import { Stack, StackProps } from 'aws-cdk-lib';
-import { AccountPrincipal, Effect, Group, ManagedPolicy, Policy, PolicyDocument, PolicyStatement, Role } from 'aws-cdk-lib/aws-iam';
+import { AccountPrincipal, Effect, Group, ManagedPolicy, PolicyDocument, PolicyStatement, Role } from 'aws-cdk-lib/aws-iam';
 import { Construct } from 'constructs';
 
 interface IamStackProps extends StackProps {
@@ -17,12 +17,12 @@ export class IamStack extends Stack {
       assumedBy: new AccountPrincipal(target),
       managedPolicies: [
         {
-          managedPolicyArn: 'arn:aws:iam::aws:policy/PowerUserAccess'
+          managedPolicyArn: 'arn:aws:iam::aws:policy/PowerUserAccess',
         },
         {
-          managedPolicyArn: 'arn:aws:iam::aws:policy/IAMFullAccess'
+          managedPolicyArn: 'arn:aws:iam::aws:policy/IAMFullAccess',
         },
-      ]
+      ],
     });
 
     new Group(this, 'UserGoorp', {
@@ -32,15 +32,15 @@ export class IamStack extends Stack {
           statements: [
             new PolicyStatement({
               actions: [
-                'sts:AssumeRole'
+                'sts:AssumeRole',
               ],
               resources: [
-                `arn:aws:iam::${target}:role/PowerUserRole`
-              ]
-            })
-          ]
-        })
-      ]
+                `arn:aws:iam::${target}:role/PowerUserRole`,
+              ],
+            }),
+          ],
+        }),
+      ],
     });
 
     new ManagedPolicy(this, 'CdkAssumeRolePolicy', {
@@ -51,14 +51,14 @@ export class IamStack extends Stack {
           new PolicyStatement({
             effect: Effect.ALLOW,
             actions: [
-              'sts:AssumeRole'
+              'sts:AssumeRole',
             ],
             resources: [
-              `arn:aws:iam::${this.account}:role/cdk-*`
-            ]
+              `arn:aws:iam::${this.account}:role/cdk-*`,
+            ],
           }),
-        ]
-      })
+        ],
+      }),
     });
   }
 }
