@@ -2,7 +2,7 @@ import * as cdk from 'aws-cdk-lib';
 import { Construct } from 'constructs';
 
 interface IamStackProps extends cdk.StackProps {
-  target: string,
+  readonly target: string,
 }
 
 export class IamStack extends cdk.Stack {

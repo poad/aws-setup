@@ -1,10 +1,11 @@
 #!/usr/bin/env node
-import * as cdk from 'aws-cdk-lib';
 import { IamStack } from '../lib/iam-stack.js';
+import * as cdk from 'aws-cdk-lib';
 
 const app = new cdk.App();
 const target = app.node.tryGetContext('target') as string;
 
-new IamStack(app, 'iam-role-stack', {
+// eslint-disable-next-line awscdk/no-construct-stack-suffix
+new IamStack(app, 'IamRoleStack', {
   target,
 });
