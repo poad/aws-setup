@@ -11,13 +11,17 @@ updates:
       - poad
 
   - package-ecosystem: npm
-    directory: '/'
+    directories:
+      - '/'
+      - '/iam/'
     schedule:
       interval: daily
       timezone: Asia/Tokyo
     allow:
       - dependency-type: all
     rebase-strategy: auto
+    cooldown:
+      default-days: 7
     assignees:
       - poad
     groups:

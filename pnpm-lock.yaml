@@ -10,7 +10,9 @@ overrides:
 
 importers:
 
-  .:
+  .: {}
+
+  iam:
     dependencies:
       aws-cdk-lib:
         specifier: ^2.250.0
