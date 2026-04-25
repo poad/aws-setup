@@ -11,7 +11,9 @@ updates:
       - poad
 
   - package-ecosystem: npm
-    directory: '/'
+    directories:
+      - '/'
+      - '/iam/'
     schedule:
       interval: daily
       timezone: Asia/Tokyo
