@@ -1,5 +1,5 @@
 {
-  "app": "npx tsx bin/iam.ts",
+  "app": "pnx tsx bin/iam.ts",
   "watch": {
     "include": [
       "**"
