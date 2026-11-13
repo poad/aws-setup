@@ -1,8 +1,8 @@
-import * as cdk from 'aws-cdk-lib';
-import { Construct } from 'constructs';
+import * as cdk from "aws-cdk-lib";
+import { Construct } from "constructs";
 
 interface IamStackProps extends cdk.StackProps {
-  readonly target: string,
+  readonly target: string;
 }
 
 export class IamStack extends cdk.Stack {
@@ -11,46 +11,40 @@ export class IamStack extends cdk.Stack {
 
     const { target } = props;
 
-    new cdk.aws_iam.Role(this, 'PowerUserRole', {
-      roleName: 'PowerUserRole',
+    new cdk.aws_iam.Role(this, "PowerUserRole", {
+      roleName: "PowerUserRole",
       assumedBy: new cdk.aws_iam.AccountPrincipal(target),
       managedPolicies: [
-        cdk.aws_iam.ManagedPolicy.fromAwsManagedPolicyName('arn:aws:iam::aws:policy/PowerUserAccess'),
-        cdk.aws_iam.ManagedPolicy.fromAwsManagedPolicyName('arn:aws:iam::aws:policy/IAMFullAccess'),
+        cdk.aws_iam.ManagedPolicy.fromAwsManagedPolicyName(
+          "arn:aws:iam::aws:policy/PowerUserAccess",
+        ),
+        cdk.aws_iam.ManagedPolicy.fromAwsManagedPolicyName("arn:aws:iam::aws:policy/IAMFullAccess"),
       ],
     });
 
-    new cdk.aws_iam.Group(this, 'UserGoorp', {
-      groupName: 'PowerUsers',
+    new cdk.aws_iam.Group(this, "UserGoorp", {
+      groupName: "PowerUsers",
       managedPolicies: [
-        new cdk.aws_iam.ManagedPolicy(this, 'AssumePolicy', {
+        new cdk.aws_iam.ManagedPolicy(this, "AssumePolicy", {
           statements: [
             new cdk.aws_iam.PolicyStatement({
-              actions: [
-                'sts:AssumeRole',
-              ],
-              resources: [
-                `arn:aws:iam::${target}:role/PowerUserRole`,
-              ],
+              actions: ["sts:AssumeRole"],
+              resources: [`arn:aws:iam::${target}:role/PowerUserRole`],
             }),
           ],
         }),
       ],
     });
 
-    new cdk.aws_iam.ManagedPolicy(this, 'CdkAssumeRolePolicy', {
-      managedPolicyName: 'CdkAssumeRolePolicy',
+    new cdk.aws_iam.ManagedPolicy(this, "CdkAssumeRolePolicy", {
+      managedPolicyName: "CdkAssumeRolePolicy",
       document: new cdk.aws_iam.PolicyDocument({
         minimize: true,
         statements: [
           new cdk.aws_iam.PolicyStatement({
             effect: cdk.aws_iam.Effect.ALLOW,
-            actions: [
-              'sts:AssumeRole',
-            ],
-            resources: [
-              `arn:aws:iam::${this.account}:role/cdk-*`,
-            ],
+            actions: ["sts:AssumeRole"],
+            resources: [`arn:aws:iam::${this.account}:role/cdk-*`],
           }),
         ],
       }),

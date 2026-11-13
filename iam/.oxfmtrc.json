@@ -1,0 +1,12 @@
+{
+  "$schema": "./node_modules/oxfmt/configuration_schema.json",
+  "sortImports": {
+    "groups": [
+      "value-builtin",
+      ["value-sibling", "value-parent"],
+      "value-index",
+      "type-import",
+      "unknown"
+    ]
+  }
+}
